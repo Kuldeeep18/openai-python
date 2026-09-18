@@ -34,8 +34,7 @@ class EnvironmentParamOpenAIHostedNetwork(TypedDict, total=False):
     access: Required[Literal["enabled", "disabled", "restricted"]]
     """The environment's network access mode.
 
-    - `enabled` - Allows unrestricted network access, matching an omitted network
-      policy.
+    - `enabled` - Allows unrestricted network access.
     - `disabled` - Disables network access.
     - `restricted` - Allows access only to configured domains.
     """
